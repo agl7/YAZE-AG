@@ -63,7 +63,7 @@ You will find yaze-ag-2.51.3.1 at
 
 	   it's a redirect to
 
-	http://www.mathematik.uni-ulm.de/users/ag/yaze-ag/
+	https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/
 
 
 Look also to:
