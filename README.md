@@ -59,11 +59,11 @@ to me.
 
 You will find yaze-ag-2.51.3.1 at
 
-	http://yaze-ag.de
+[htto://yaze-ag.de](http://yaze-ag.de)
 
-	   it's a redirect to
+it's a redirect to
 
-	https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/
+[https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/](https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/)
 
 
 Look also to:
