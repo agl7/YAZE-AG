@@ -71,9 +71,9 @@ Look also to:
 	yaze.doc (v1.10),
 	yaze-ag.doc (only the new features since yaze-1.10 until yaze-ag-2.51.3.1),
 	the README's,
-	yaze.1 (man yaze)
+	yaze.1 (man yaze),
 	cdm.1  (man cdm).
 
-March 4, 2022
+March 4, 2022,
 Dipl.-Ing. (FH) Andreas Gerlich
 (University of Ulm, Germany)
