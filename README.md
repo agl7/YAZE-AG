@@ -7,14 +7,14 @@ Yet Another Z80 Emulator by AG (YAZE-AG)
 yaze-ag-2.51.3.1.tar.gz is the stable release of version 2.51.3.1 with the
 extension to run also with the cygwin environment under windows.
 
-yaze-ag-2.51.3.1 runs with:	Solaris (SparcV9 or X86_64Bit),
-				Linux (LinuxMint, Ubuntu, Debian, ...),
-				RaspberryPiOS (RaspberryPi 1, 2B, 3B, 3B+, 4B)
+yaze-ag-2.51.3.1 runs with:	- Solaris (SparcV9 or X86_64Bit),
+				- Linux (LinuxMint, Ubuntu, Debian, ...),
+				- RaspberryPiOS (RaspberryPi 1, 2B, 3B, 3B+, 4B)
 				  (32 Bit or 64 Bit),
-				Orange Pi Plus/Plus2,
-				FreeBSD,
-				MacOS,
-				Cygwin (Windows) (since V2.30.2 also for 64Bit)
+				- Orange Pi Plus/Plus2,
+				- FreeBSD,
+				- MacOS,
+				- Cygwin (Windows) (since V2.30.2 also for 64Bit)
 
 yaze-ag-2.51.3.1 is a further development of yaze-1.10.
 
@@ -67,12 +67,13 @@ it's a redirect to
 
 
 Look also to:
-	INSTALL-2.51.3.1,
-	yaze.doc (v1.10),
-	yaze-ag.doc (only the new features since yaze-1.10 until yaze-ag-2.51.3.1),
-	the README's,
-	yaze.1 (man yaze),
-	cdm.1  (man cdm).
+
+- INSTALL-2.51.3.1,
+- yaze.doc (v1.10),
+- yaze-ag.doc (only the new features since yaze-1.10 until yaze-ag-2.51.3.1),
+- The README's,
+- yaze.1 (man yaze),
+- cdm.1  (man cdm).
 
 March 4, 2022,
 Dipl.-Ing. (FH) Andreas Gerlich
