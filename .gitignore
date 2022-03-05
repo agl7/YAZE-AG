@@ -2,3 +2,5 @@ cdm
 keytest
 yaze_bin
 *.o
+yaze
+yaze.sh
