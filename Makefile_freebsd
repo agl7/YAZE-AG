@@ -61,7 +61,7 @@ OPTIMIZE	= -O3
 #
 # --
 # solaris2, freebsd and cygwin needs -D__EXTENSIONS__
-# linux needs -D_DEFAULT_SOURCE -D_POSIX_SOURCE
+# linux needs -D_DEFAULT_SOURCE
 #
 OPTIONS	= -D_DEFAULT_SOURCE -D__EXTENSIONS__ -DBIOS -DMMU -DBOOTSYS -DMULTIO # -DSHOWDRV
 
@@ -110,8 +110,7 @@ TEST	      =	test/prelim.z80 test/zexlax.pl test/zexall.z80 test/zexdoc.z80 \
 		test/timex.com \
 		TODO test.c md5 md5_V1.10 di
 
-DISTRIB       =	Makefile_Linux \
-		Makefile_linux_32_i586 \
+DISTRIB       =	Makefile_linux_32_i586 \
 		Makefile_linux_64_amd_athlon64 \
 		Makefile_linux_64_intel_corei7 \
 		Makefile_linux_64_intel_nocona \
@@ -141,7 +140,7 @@ DISTRIB       =	Makefile_Linux \
 		.minttyrc md5summer.exe metapad.exe metapad.ini \
 		simz80.pl .yazerc yaze.boot $(SRCS) $(DOC) \
 		yaze-cpm3_80-columns_46-lines.boot \
-		yaze.sh doc_ydskfiles.txt doc_ydskfiles_windows.txt \
+		yaze.in doc_ydskfiles.txt doc_ydskfiles_windows.txt \
 		install_disks.sh \
 		bios3.ydsk yaze-cpm3.boot \
 		BOOT_UTILS.ydsk BOOT_UTILS_windows.ydsk testdsk.ydsk \
@@ -156,7 +155,10 @@ DISTRIB       =	Makefile_Linux \
 
 all:		yaze_bin cdm keytest
 
-yaze_bin:	$(YAZE_OBJS)
+yaze.sh:        yaze.in
+		sed "s,@LIBDIR@,"$(LIBDIR)"," < $< > $@
+
+yaze_bin:	yaze.sh $(YAZE_OBJS)
 		$(CC) $(CFLAGS) $(YAZE_OBJS) $(LIBS) -o $@
 		ln -f -s yaze.sh yaze
 
@@ -233,3 +235,4 @@ conin.o:	conin.c ytypes.h ktt.h chan.h
 
 keytest.o:	keytest.c ytypes.h ktt.h
 nulrq.o:	nulrq.c
+
