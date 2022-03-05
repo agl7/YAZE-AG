@@ -279,7 +279,6 @@ d3d15dfb963d3ff3d57a721ae7cab328b1f07a83acf18504f905381f2a87cae4 *./Makefile_sol
 adc6f239a6d0f49ddb49d5609f5db3b2a3177d47287b6f37f79cd1fe8cd4f2aa *./YAZE-AG-2.40.1-x86_32-generic-SFX.txt
 85dd7563037a82668e3969da5b280ea0c3e9da473a308fd2b41e326e771ad99d *./YAZE-AG-2.50.0-RC2-x86_32bit-generic-SFX.txt
 781359ae9e8080cfe1c11e418deb079b39c66380315cd3e1ce4d5c50cfcf40f5 *./Makefile_Raspberry_Pi_3_Model_B_ARMv8_64Bit
-2920dfd9c157c7f7187143a380edd804793a09a8dbb3e276ef325917c7eaa10c *./Makefile_freebsd
 c7dab79f58bba4b654469718ec5852322be4d1afad2de4d7688ad56cbb4b0548 *./md5_yaze-ag-2.51.2
 98f94eaa85e4f199be9e0d2aa60cc4c2958dd1b9a667aaed2d87f8cb55ec67f4 *./md5_yaze-ag-2.50.0-rc1
 8a0b63152d36951b99bd7ef786cd469c83c86c5e97af89fe201976c34f86ebf2 *./md5_yaze-ag-2.51.2-RC1
@@ -325,3 +324,4 @@ f221be53dba511d2b504f09882db8c9a584c5d5002b7473889a1bf85f12cf80b *./Makefile_Lin
 d887602b4c681cb88dad645ffef5eac7e979dda165dd31a977c73c9bbeb2f6d5 *./m2.ktt
 6687d298d8086227e992013eb4ee3ad9e992d5287a480e8e242003fa6cc541e4 *./Makefile_Raspberry_Pi_1
 eef86b43e1ed38ba5efcfd374e10aed601edebc3c247b9325bffb1c17bf4037d *./YAZE-AG-2.40.4-64Bit-Intel-corei7-SFX.txt
+54182ff2ff318c2fea016c34ccd617be94d8bc022b09a28041c4a3b0ed295c3a *Makefile_freebsd
