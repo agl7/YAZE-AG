@@ -110,7 +110,9 @@ TEST	      =	test/prelim.z80 test/zexlax.pl test/zexall.z80 test/zexdoc.z80 \
 		test/timex.com \
 		TODO test.c md5 md5_V1.10 di
 
-DISTRIB       =	Makefile_linux_32_i586 \
+DISTRIB       =	Makefile_Linux \
+		Makefile_freebsd \
+		Makefile_linux_32_i586 \
 		Makefile_linux_64_amd_athlon64 \
 		Makefile_linux_64_intel_corei7 \
 		Makefile_linux_64_intel_nocona \
@@ -120,7 +122,6 @@ DISTRIB       =	Makefile_linux_32_i586 \
 		Makefile_solaris_cc-x86_64 \
 		Makefile_solaris_gcc-sparcv9 \
 		Makefile_solaris_gcc-x86_64 \
-		Makefile_freebsd \
 		Makefile Makefile_first \
 		Makefile_cygwin_32 \
 		Makefile_cygwin_64_core2duo \
