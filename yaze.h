@@ -18,7 +18,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. */
 
-#define VERSION "2.51.3"
+#define VERSION "2.51.3.1"
 #define	DEVVER	"04"		/* developer version	*/
 #define MAINVersion	0x02
 #define SUBVersion	0x51
