@@ -1,4 +1,4 @@
-*.o
 cdm
 keytest
 yaze_bin
+*.o
