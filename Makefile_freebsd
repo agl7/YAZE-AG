@@ -157,7 +157,7 @@ DISTRIB       =	Makefile_Linux \
 all:		yaze_bin cdm keytest
 
 yaze.sh:        yaze.in
-		sed "s,@LIBDIR@,"$(LIBDIR)"," < yaze.in > $@
+		sed "s,@LIBDIR@,"$(LIBDIR)"," < $< > $@
 		chmod +x $@
 
 yaze_bin:	yaze.sh $(YAZE_OBJS)
