@@ -157,6 +157,7 @@ all:		yaze_bin cdm keytest
 
 yaze.sh:        yaze.in
 		sed "s,@LIBDIR@,"$(LIBDIR)"," < $< > $@
+		chmod +x $@
 
 yaze_bin:	yaze.sh $(YAZE_OBJS)
 		$(CC) $(CFLAGS) $(YAZE_OBJS) $(LIBS) -o $@
@@ -221,7 +222,7 @@ tar:		$(DISTRIB) md5
 
 clean:;		rm -f *.o *~ core
 		rm -f *.i *.s
-		rm -f yaze
+		rm -f yaze yaze.sh
 
 yaze.o:		yaze.c simz80.h yaze.h mem_mmu.h ytypes.h
 ybios.o:	ybios.c simz80.h yaze.h ybios.h mem_mmu.h ytypes.h ktt.h
