@@ -454,8 +454,8 @@ int ktt_load(char *keyfile)
 
 int keyTrans(ui32 key, struct _ci *ci)
 {
-    kt_entry
-        *k = 0;
+    kt_entry *k = 0;
+    kt_entry search_key = {key, 0, ""};  // Create a temporary entry for searching
 
     /* Ensure that the keyboard translate table is loaded.  This is
     // only done once.
@@ -470,7 +470,7 @@ int keyTrans(ui32 key, struct _ci *ci)
 
     /* See if there is an entry in the translate table. */
     if (ktt.elements)
-        k = bsearch(&key, ktt.keys, ktt.elements, sizeof(kt_entry),
+        k = bsearch(&search_key, ktt.keys, ktt.elements, sizeof(kt_entry),
                     kt_compare);
     if (k)
     {
